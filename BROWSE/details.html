@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="/INDEX/index.css">
+    <link rel="stylesheet" href="/BROWSE/details.css">
+</head>
+<body>
+  <nav>
+    <div class="navbar-container">
+      <!-- Top Row: Logo, Search Bar, User Profile and Notifications -->
+      <div class="navbar-top">
+        <!-- Logo -->
+        <a href="#" class="navbar-logo">
+          <img src="/images/" alt="Platform Logo">
+        </a>
+        
+        <!-- Search Bar -->
+        <div class="navbar-search-container">
+          <input type="text" placeholder="Search..." class="navbar-search">
+        </div>
+        
+        <!-- User Profile and Notifications -->
+        <div class="navbar-user">
+          <div class="navbar-notifications">
+            <i class="bi bi-bell"></i><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+              </svg>
+          </div>
+          <div class="navbar-cart"><i class="bi bi-cart3"></i><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+          </svg></div>
+          <div class="navbar-profile-dropdown">
+            <i class="bi bi-person-circle"></i><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+              </svg>
+            <div class="dropdown-content">
+              <a href="#">Profile</a>
+              <a href="#">My Listings</a>
+              <a href="#">My Transactions</a>
+              <a href="#">Settings</a>
+              <a href="#">Logout</a>
+            </div>
+          </div>
+          
+          <!-- Language Selector -->
+          <div class="navbar-language">
+            <select>
+              <option value="en">English</option>
+              <option value="sw">Swahili</option>
+              <option value="so">Somali</option>
+            </select>
+          </div>
+          
+          <!-- Help/Support -->
+          <div class="navbar-help">
+            <a href="/INDEX/help.html">Help</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Bottom Row: Main Navigation Links -->
+      <div class="navbar-bottom">
+        <ul class="navbar-links">
+          <li><a href="/INDEX/index.html">Home</a></li>
+          <li><a href="/BROWSE/browselistings.html">Buy Livestock</a></li>
+          <li><a href="/SELLPRODUCTS/sellproducts.html">Sell Products</a></li>
+          <li><a href="/SELL-LIVESTOCK/sell-livestock.html">Sell Livestock</a></li>
+          <li><a href="/PRODUCTS/products.html">Get Products</a></li>
+          <li><a href="/MESSAGES/messages.html">Messages</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <div id="product-details"></div>
+    <div id="purchase-form">
+        <h3>Purchase Form</h3>
+        <form id="buy-form">
+            <label for="buyer-name">Name</label>
+            <input type="text" id="buyer-name" name="buyer-name" required>
+
+            <label for="buyer-email">Email</label>
+            <input type="email" id="buyer-email" name="buyer-email" required>
+
+            <label for="buyer-address">Address</label>
+            <input type="text" id="buyer-address" name="buyer-address" required>
+
+            <label for="buyer-phone">Phone</label>
+            <input type="text" id="buyer-phone" name="buyer-phone" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+<script src="/BROWSE/details.js"></script>
+</body>
+</html>

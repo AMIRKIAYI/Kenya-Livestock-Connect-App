@@ -1,0 +1,324 @@
+.top-bar {
+  width: 100%;
+  background-color: #1d4ed8;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+#statement {
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar-container {
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  background-color: #fff;
+}
+
+.navbar-logo {
+  flex: 0 0 auto;
+  height: 100px;
+}
+
+.navbar-logo img {
+  height: 160px; /* Increased height for better visibility */
+  width: 200px;
+  margin-left: 0;
+}
+
+.navbar-search-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.navbar-search {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar-notifications img {
+  height: 24px;
+  cursor: pointer;
+}
+
+.navbar-profile-dropdown {
+  position: relative;
+}
+
+.navbar-profile-dropdown img {
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  padding: 10px 20px;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar-profile-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar-language select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar-help a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar-bottom {
+  padding: 10px;
+  background-color: #f1f5f9;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+
+.navbar-links li a:hover {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+}
+
+.dropdown-content.show {
+  display: block;
+}
+
+/* SECTION2 */
+
+/* Hero Section */
+.sect1 {
+  background-color: #122868;
+  color: #CCEBFF;
+  text-align: center;
+  padding: 20px;
+}
+
+.row source {
+  height: 10%;
+}
+
+.Header1 {
+  text-align: center;
+  font-family: Guardian Egyptian;
+  font-size: 10px;
+}
+
+.Header1 h2 {
+  font-size: 24px;
+}
+
+.col h1 {
+  font-family: "Graphik Webfont";
+  font-size: 24px;
+  margin: 0px;
+}
+
+.col p {
+  font-family: "Graphik Webfont";
+  font-size: 16px;
+  margin-left: 0px;
+  text-indent: 10px;
+}
+
+.story {
+  background-color: #f8ea83;
+}
+
+.Header1 button {
+  font-family: "Graphik Webfont";
+  border-radius: 30px;
+  text-emphasis-color: blue;
+}
+
+/* footer styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-footer {
+  background-color: #3B67D9;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+
+.site-footer hr.small {
+  margin: 20px 0;
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.site-footer a {
+  color: #ffffff;
+}
+
+.site-footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  display: block;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.site-footer .social-icons {
+  text-align: right;
+}
+
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+}
+
+.copyright-text {
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding-right: 30px;
+}
+
+.logo {
+  color: #ffffff;
+}
+
+.bi1 {
+  background-color: #122868;
+  border-radius: 8px;
+}
+
+/* cards on home */

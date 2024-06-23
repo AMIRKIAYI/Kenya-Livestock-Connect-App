@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #e11d48;
+   
+}
+#product-details {
+    margin: auto;
+    background-color: #122868;
+    max-width: 50%;
+    padding-left: 50px;
+    color: #CCEBFF;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+#product-details img {
+    max-width: 300px;
+    padding-top: 20px;
+}
+#buy-now-button{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+#buy-now-button:hover{
+    background-color: #28a745;
+}
+#Add-to-cart{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+}
+#Add-to-cart:hover{
+    background-color: #a73728;
+}
+#purchase-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: none;
+    background-color: #3B67D9;
+}
+#purchase-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+#purchase-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+#purchase-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#purchase-form button:hover {
+    background-color: #218838;
+}
+
