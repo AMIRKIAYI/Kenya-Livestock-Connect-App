@@ -12,7 +12,7 @@
     border-radius: 0.25rem;
     padding: 1rem;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    background-color: #3B67D9;
+    background-color: #ffff;
 }
 .listing-card img {
     width: 100%;
@@ -20,11 +20,18 @@
     margin-bottom: 1rem;
     border-radius: 0.25rem;
 }
-.buy-button {
-    display: block;
-    margin-top: 1rem;
-    text-align: center;
+
+.spacing-btn {
+    margin-right: 50px; /* Adds 30px space to the right of each button */
 }
+
+/* Optional: Remove underline from links and set color */
+.spacing-btn a {
+    text-decoration: none;
+    color: white; /* or any color that matches your theme */
+}
+
+
 .row1{
-    background-color: #f59e0b;
+    background-color: white;
 }

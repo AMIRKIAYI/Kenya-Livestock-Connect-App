@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     const listingsContainer = document.getElementById('listings-container');
-    const categories = ['Cattles', 'Goats', 'Carmel', 'Sheep', 'Donkeys'];
+    const categories = ['Cattles', 'Goats', 'Carmel', 'Sheep', 'Donkeys', 'LatestLivestock'];
 
     categories.forEach(category => {
         fetch(`http://localhost:3000/${category}`)
@@ -41,3 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     });
 });
+
+
+
+
